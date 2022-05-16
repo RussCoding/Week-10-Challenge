@@ -33,7 +33,7 @@ const makeTeam = (team) => {
                 <li class="list-group-item">Name: ${engineer.name}</li>
                 <li class="list-group-item">ID: ${engineer.id}</li>
                 <li class="list-group-item">Email: <span><a href="mailto:${engineer.email}">${engineer.email}</a></span></li>
-                <li class="list-group-item">Github: < href="https://github.com/${engineer.githubUsername}">${engineer.githubUsername}</a></li>
+                <li class="list-group-item">Github: <span><a href="https://github.com/${engineer.github}" target="_blank">${engineer.github}</a></span></li>
                 </ul>
             </div>
         </div>

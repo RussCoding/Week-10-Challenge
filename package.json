@@ -4,5 +4,27 @@
   },
   "devDependencies": {
     "jest": "^28.1.0"
-  }
+  },
+  "name": "challenge-10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussCoding/Week-10-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussCoding/Week-10-Challenge/issues"
+  },
+  "homepage": "https://github.com/RussCoding/Week-10-Challenge#readme",
+  "description": ""
 }

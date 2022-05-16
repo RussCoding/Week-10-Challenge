@@ -97,12 +97,12 @@ function startApp () {
     
           {
             type: "input",
-            name: "git",
+            name: "github",
             message: "Enter the GitHub username"
           }
     
         ]).then(answers => {
-          const engineer = new Engineer(answers.name, answers.id, answers.email, answers.git);
+          const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
           teamArr.push(engineer);
           runPrompts();
         });
