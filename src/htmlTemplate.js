@@ -52,7 +52,7 @@ const makeTeam = (team) => {
                 <ul class="list-group">
                 <li class="list-group-item">Name: ${intern.name}</li>
                 <li class="list-group-item">ID: ${intern.id}</li>
-                <li class="list-group-item">Email: <span><a href="mailto:${intern.email}">${manager.email}</a></span></li>
+                <li class="list-group-item">Email: <span><a href="mailto:${intern.email}">${intern.email}</a></span></li>
                 <li class="list-group-item">School: ${intern.school}</li>
                 </ul>
             </div>

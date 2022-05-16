@@ -145,6 +145,8 @@ function startApp () {
   function createSite(){
     fs.writeFileSync(outputPath, generateHTML(teamArr), "UTF-8");
   }
+
+  runPrompts();
 }
 
 startApp();
