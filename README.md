@@ -3,4 +3,4 @@ This project focuses on creating a command line application which will take in i
 Screenshot: ![Webpage Screenshot](./assets/screenshot.png)
 
 
-Walkthrough Video:  ![Team Generator Walkthrough Video](./assets/Project_Walkthrough.webm)
+Walkthrough Video:  ![Team Generator Walkthrough Video](./assets/Project-Walkthrough.mp4)
